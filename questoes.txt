@@ -1,0 +1,661 @@
+1:"$Sreact.fragment"
+2:I[2837,["612","static/chunks/612-9b6ff468afdeda81.js","177","static/chunks/app/layout-a5f170f4510cb2db.js"],"default"]
+3:I[9729,[],""]
+4:I[9829,[],""]
+5:I[9692,["500","static/chunks/app/questoes/page-4aa8d616eb3e79c2.js"],"default"]
+7:I[5358,[],"OutletBoundary"]
+9:I[5358,[],"MetadataBoundary"]
+b:I[5358,[],"ViewportBoundary"]
+d:I[672,[],""]
+:HL["/Material_Security_Plus/_next/static/media/a34f9d1faa5f3315-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/Material_Security_Plus/_next/static/css/6e96c948ff984f9f.css","style"]
+6:T81d3,# Questões Práticas Adicionais - CompTIA Security+ SY0-701
+
+Este documento contém questões práticas adicionais para ajudar na sua preparação para o exame CompTIA Security+ SY0-701. As questões estão organizadas por domínio e incluem tanto questões de múltipla escolha quanto questões baseadas em desempenho (PBQs).
+
+## Domínio 1: Conceitos Gerais de Segurança
+
+### Questões de Múltipla Escolha
+
+1. Uma empresa implementou um sistema onde os funcionários precisam usar um crachá para entrar no prédio, digitar um PIN para acessar áreas seguras e passar por um scanner biométrico para entrar na sala de servidores. Que princípio de segurança está sendo implementado?
+   a) Defesa em profundidade
+   b) Menor privilégio
+   c) Separação de funções
+   d) Segurança por obscuridade
+
+2. Qual dos seguintes NÃO é um exemplo de controle técnico?
+   a) Firewall
+   b) Política de senhas
+   c) Criptografia
+   d) Sistema de detecção de intrusão
+
+3. Uma organização está implementando um modelo de segurança onde nenhum usuário ou dispositivo é confiável por padrão, e a verificação é contínua. Que modelo está sendo implementado?
+   a) Perímetro de segurança tradicional
+   b) Zero Trust
+   c) Defesa em profundidade
+   d) Modelo de confiança implícita
+
+4. Qual dos seguintes é um exemplo de controle compensatório?
+   a) Implementar um firewall para bloquear tráfego não autorizado
+   b) Usar um gerador de backup quando a energia principal falha
+   c) Implementar monitoramento adicional quando um patch não pode ser aplicado
+   d) Treinar funcionários sobre conscientização de segurança
+
+5. Qual princípio da tríade CIA se refere à garantia de que as informações estão corretas e não foram alteradas de forma não autorizada?
+   a) Confidencialidade
+   b) Integridade
+   c) Disponibilidade
+   d) Autenticidade
+
+6. Uma empresa implementou um sistema onde o gerente de TI não pode aprovar suas próprias solicitações de mudança, e o administrador de rede não pode auditar seus próprios logs. Que princípio de segurança está sendo aplicado?
+   a) Menor privilégio
+   b) Defesa em profundidade
+   c) Separação de funções
+   d) Necessidade de conhecimento
+
+7. Qual dos seguintes NÃO é um componente típico de um programa de gerenciamento de mudanças?
+   a) Solicitação de mudança
+   b) Avaliação de impacto
+   c) Teste de penetração
+   d) Aprovação por comitê de mudanças
+
+8. Qual método criptográfico é mais adequado para verificar a integridade de um arquivo baixado?
+   a) Criptografia simétrica
+   b) Criptografia assimétrica
+   c) Função de hash
+   d) Esteganografia
+
+9. Uma empresa está implementando controles para garantir que apenas pessoas autorizadas possam acessar informações sensíveis. Qual princípio da tríade CIA está sendo abordado?
+   a) Confidencialidade
+   b) Integridade
+   c) Disponibilidade
+   d) Não-repúdio
+
+10. Qual dos seguintes é um exemplo de controle físico?
+    a) Firewall
+    b) Política de senhas
+    c) Porta com fechadura biométrica
+    d) Criptografia de disco
+
+### Respostas e Explicações
+
+1. **a) Defesa em profundidade**
+   *Explicação*: A defesa em profundidade envolve múltiplas camadas de controles de segurança. No cenário, há três camadas diferentes de controle de acesso físico (crachá, PIN e biometria).
+
+2. **b) Política de senhas**
+   *Explicação*: Uma política de senhas é um controle administrativo, pois é uma diretriz documentada. Firewalls, criptografia e sistemas de detecção de intrusão são todos exemplos de controles técnicos.
+
+3. **b) Zero Trust**
+   *Explicação*: O modelo Zero Trust baseia-se no princípio "nunca confie, sempre verifique", onde nenhum usuário ou dispositivo é confiável por padrão, independentemente de sua localização (dentro ou fora da rede corporativa).
+
+4. **c) Implementar monitoramento adicional quando um patch não pode ser aplicado**
+   *Explicação*: Um controle compensatório é implementado quando o controle primário (neste caso, aplicar um patch) não pode ser implementado. O monitoramento adicional compensa a vulnerabilidade não corrigida.
+
+5. **b) Integridade**
+   *Explicação*: A integridade refere-se à garantia de que os dados não foram alterados de forma não autorizada e permanecem precisos e confiáveis.
+
+6. **c) Separação de funções**
+   *Explicação*: A separação de funções garante que nenhum indivíduo tenha controle completo sobre um processo crítico, reduzindo o risco de fraude ou erro.
+
+7. **c) Teste de penetração**
+   *Explicação*: Embora o teste de penetração seja uma prática importante de segurança, ele não é tipicamente um componente do processo de gerenciamento de mudanças. Os outros componentes (solicitação, avaliação de impacto e aprovação) são partes padrão do processo.
+
+8. **c) Função de hash**
+   *Explicação*: As funções de hash (como SHA-256) são usadas para criar uma "impressão digital" única de um arquivo, permitindo verificar se o arquivo foi alterado durante o download.
+
+9. **a) Confidencialidade**
+   *Explicação*: A confidencialidade refere-se à proteção de informações contra acesso não autorizado, garantindo que apenas pessoas autorizadas possam acessá-las.
+
+10. **c) Porta com fechadura biométrica**
+    *Explicação*: Controles físicos protegem o ambiente físico e incluem dispositivos como fechaduras, barreiras e sistemas de controle de acesso físico. Firewall e criptografia são controles técnicos, e política de senhas é um controle administrativo.
+
+## Domínio 2: Ameaças, Vulnerabilidades e Mitigações
+
+### Questões de Múltipla Escolha
+
+1. Um atacante envia um email para funcionários fingindo ser do departamento de TI, solicitando que eles cliquem em um link para "verificar suas credenciais". Que tipo de ataque é este?
+   a) Phishing
+   b) Vishing
+   c) Pretexting
+   d) Tailgating
+
+2. Qual vulnerabilidade permite que um atacante insira código malicioso em um site que é então executado no navegador do usuário?
+   a) Injeção SQL
+   b) Cross-Site Scripting (XSS)
+   c) Cross-Site Request Forgery (CSRF)
+   d) Path Traversal
+
+3. Um atacante consegue acessar um sistema usando credenciais válidas obtidas de um vazamento de dados anterior. Que tipo de ataque é este?
+   a) Força bruta
+   b) Credential stuffing
+   c) Dictionary attack
+   d) Rainbow table attack
+
+4. Qual das seguintes é a melhor defesa contra ataques de ransomware?
+   a) Firewall de próxima geração
+   b) Sistema de detecção de intrusão
+   c) Backups regulares testados e offline
+   d) Software antivírus
+
+5. Um atacante modifica o tráfego entre um cliente e um servidor, interceptando e potencialmente alterando a comunicação. Que tipo de ataque é este?
+   a) DDoS (Distributed Denial of Service)
+   b) Man-in-the-Middle
+   c) DNS Poisoning
+   d) ARP Spoofing
+
+6. Qual vulnerabilidade permite que um atacante execute comandos no sistema operacional através de uma aplicação web?
+   a) Cross-Site Scripting
+   b) Injeção SQL
+   c) Command Injection
+   d) Broken Authentication
+
+7. Um atacante envia um grande número de pacotes SYN para um servidor, esgotando sua capacidade de estabelecer novas conexões. Que tipo de ataque é este?
+   a) SYN Flood
+   b) UDP Flood
+   c) ICMP Flood
+   d) HTTP Flood
+
+8. Qual das seguintes NÃO é uma técnica eficaz para mitigar ataques de engenharia social?
+   a) Treinamento de conscientização de segurança
+   b) Implementação de firewall
+   c) Verificação em duas etapas para solicitações sensíveis
+   d) Políticas claras para lidar com informações sensíveis
+
+9. Um atacante explora uma vulnerabilidade em um software antes que o fornecedor tenha conhecimento dela ou lance um patch. Que tipo de vulnerabilidade é esta?
+   a) Zero-day
+   b) Backdoor
+   c) Logic bomb
+   d) Rootkit
+
+10. Qual das seguintes é a melhor defesa contra ataques de força bruta em senhas?
+    a) Política de senhas complexas
+    b) Bloqueio de conta após múltiplas tentativas falhas
+    c) Autenticação multifator
+    d) Rotação regular de senhas
+
+### Respostas e Explicações
+
+1. **a) Phishing**
+   *Explicação*: Phishing é um ataque de engenharia social onde o atacante se passa por uma entidade confiável para induzir indivíduos a fornecer informações sensíveis ou clicar em links maliciosos.
+
+2. **b) Cross-Site Scripting (XSS)**
+   *Explicação*: XSS permite que atacantes injetem scripts do lado do cliente em páginas web visualizadas por outros usuários, potencialmente roubando cookies de sessão ou redirecionando para sites maliciosos.
+
+3. **b) Credential stuffing**
+   *Explicação*: Credential stuffing é um tipo de ataque cibernético onde credenciais roubadas (pares de nome de usuário/senha) de um serviço são testadas em outros serviços, explorando a reutilização de senhas.
+
+4. **c) Backups regulares testados e offline**
+   *Explicação*: Embora todas as opções ajudem na defesa, backups regulares, testados e mantidos offline são a melhor defesa contra ransomware, pois permitem a recuperação dos dados sem pagar o resgate.
+
+5. **b) Man-in-the-Middle**
+   *Explicação*: Em um ataque Man-in-the-Middle, o atacante secretamente retransmite e possivelmente altera a comunicação entre duas partes que acreditam estar se comunicando diretamente.
+
+6. **c) Command Injection**
+   *Explicação*: Command Injection permite que um atacante execute comandos arbitrários no sistema operacional hospedeiro através de uma aplicação vulnerável, potencialmente comprometendo o servidor.
+
+7. **a) SYN Flood**
+   *Explicação*: Um ataque SYN Flood envia um grande volume de pacotes SYN para um alvo, mas nunca completa o handshake TCP de três vias, esgotando os recursos do servidor para novas conexões.
+
+8. **b) Implementação de firewall**
+   *Explicação*: Embora firewalls sejam importantes para a segurança geral, eles não são eficazes contra ataques de engenharia social, que exploram o comportamento humano, não vulnerabilidades técnicas.
+
+9. **a) Zero-day**
+   *Explicação*: Uma vulnerabilidade zero-day é uma falha de software desconhecida pelo fornecedor e para a qual não existe patch disponível, tornando-a particularmente perigosa.
+
+10. **c) Autenticação multifator**
+    *Explicação*: A autenticação multifator é a defesa mais eficaz contra ataques de força bruta, pois mesmo que a senha seja comprometida, o atacante ainda precisaria do segundo fator de autenticação.
+
+## Domínio 3: Arquitetura de Segurança
+
+### Questões de Múltipla Escolha
+
+1. Em qual modelo de serviço de nuvem o cliente tem a maior responsabilidade pela segurança?
+   a) Software as a Service (SaaS)
+   b) Platform as a Service (PaaS)
+   c) Infrastructure as a Service (IaaS)
+   d) Function as a Service (FaaS)
+
+2. Qual tecnologia permite que uma organização divida sua rede em segmentos isolados para limitar o movimento lateral de ameaças?
+   a) NAT (Network Address Translation)
+   b) VPN (Virtual Private Network)
+   c) VLAN (Virtual Local Area Network)
+   d) DNS (Domain Name System)
+
+3. Qual dispositivo de segurança é melhor para proteger aplicações web contra ataques específicos como injeção SQL e XSS?
+   a) Firewall de próxima geração
+   b) Web Application Firewall (WAF)
+   c) Intrusion Prevention System (IPS)
+   d) Proxy reverso
+
+4. Qual método de proteção de dados substitui dados sensíveis por valores não sensíveis que mantêm o formato dos dados originais?
+   a) Criptografia
+   b) Hashing
+   c) Tokenização
+   d) Mascaramento
+
+5. Qual das seguintes é uma medida do tempo máximo aceitável que um sistema pode estar indisponível após um incidente?
+   a) RPO (Recovery Point Objective)
+   b) RTO (Recovery Time Objective)
+   c) MTTR (Mean Time to Repair)
+   d) MTBF (Mean Time Between Failures)
+
+6. Qual tipo de site de recuperação de desastres é parcialmente equipado com hardware, mas requer configuração adicional antes de estar operacional?
+   a) Hot site
+   b) Warm site
+   c) Cold site
+   d) Mirror site
+
+7. Em um ambiente de nuvem, qual serviço é responsável por gerenciar e proteger chaves criptográficas?
+   a) Identity and Access Management (IAM)
+   b) Key Management Service (KMS)
+   c) Security Groups
+   d) Cloud Access Security Broker (CASB)
+
+8. Qual protocolo é usado para criar um túnel seguro para tráfego de rede, frequentemente usado em VPNs?
+   a) SSH
+   b) TLS
+   c) IPsec
+   d) HTTPS
+
+9. Qual modelo de arquitetura de segurança combina funções de rede e segurança entregues como serviço na borda da nuvem?
+   a) Zero Trust Network Access (ZTNA)
+   b) Software-Defined Perimeter (SDP)
+   c) Secure Access Service Edge (SASE)
+   d) Cloud Access Security Broker (CASB)
+
+10. Qual das seguintes NÃO é uma consideração típica ao projetar para alta disponibilidade?
+    a) Redundância de hardware
+    b) Balanceamento de carga
+    c) Múltiplas zonas de disponibilidade
+    d) Criptografia de dados
+
+### Respostas e Explicações
+
+1. **c) Infrastructure as a Service (IaaS)**
+   *Explicação*: No modelo IaaS, o cliente é responsável pela segurança do sistema operacional, aplicações, dados e configurações, enquanto o provedor é responsável apenas pela segurança da infraestrutura física e de virtualização.
+
+2. **c) VLAN (Virtual Local Area Network)**
+   *Explicação*: VLANs permitem segmentar logicamente uma rede física em múltiplas redes isoladas, limitando o movimento lateral de ameaças entre segmentos.
+
+3. **b) Web Application Firewall (WAF)**
+   *Explicação*: Um WAF é especificamente projetado para proteger aplicações web contra ataques como injeção SQL, XSS e outros ataques da OWASP Top 10, analisando o tráfego HTTP/HTTPS.
+
+4. **c) Tokenização**
+   *Explicação*: A tokenização substitui dados sensíveis por tokens não sensíveis que mantêm o formato dos dados originais, mas não têm valor exploável. O mapeamento entre tokens e dados originais é armazenado separadamente.
+
+5. **b) RTO (Recovery Time Objective)**
+   *Explicação*: RTO é o tempo máximo aceitável que um sistema pode estar indisponível após um incidente. RPO refere-se à quantidade máxima aceitável de perda de dados.
+
+6. **b) Warm site**
+   *Explicação*: Um warm site é parcialmente equipado com hardware e conexões, mas requer configuração adicional antes de estar totalmente operacional. Um hot site está completamente pronto, e um cold site tem apenas a infraestrutura básica.
+
+7. **b) Key Management Service (KMS)**
+   *Explicação*: KMS é um serviço dedicado para criar, armazenar, gerenciar e controlar o acesso a chaves criptográficas em ambientes de nuvem.
+
+8. **c) IPsec**
+   *Explicação*: IPsec (Internet Protocol Security) é um conjunto de protocolos usado para proteger comunicações IP, frequentemente usado em VPNs site-to-site e algumas VPNs de acesso remoto.
+
+9. **c) Secure Access Service Edge (SASE)**
+   *Explicação*: SASE combina funções de rede (SD-WAN) e segurança (SWG, CASB, FWaaS, ZTNA) como um serviço baseado em nuvem entregue na borda.
+
+10. **d) Criptografia de dados**
+    *Explicação*: Embora a criptografia seja importante para a segurança dos dados, ela não é uma consideração típica para alta disponibilidade. Redundância, balanceamento de carga e distribuição geográfica são fatores críticos para alta disponibilidade.
+
+## Domínio 4: Operações de Segurança
+
+### Questões de Múltipla Escolha
+
+1. Qual ferramenta é usada para agregar logs de várias fontes, correlacionar eventos e gerar alertas baseados em regras predefinidas?
+   a) IDS (Intrusion Detection System)
+   b) SIEM (Security Information and Event Management)
+   c) EDR (Endpoint Detection and Response)
+   d) DLP (Data Loss Prevention)
+
+2. Qual modelo de controle de acesso baseia-se em funções atribuídas aos usuários para determinar permissões?
+   a) DAC (Discretionary Access Control)
+   b) MAC (Mandatory Access Control)
+   c) RBAC (Role-Based Access Control)
+   d) ABAC (Attribute-Based Access Control)
+
+3. Qual fase do processo de resposta a incidentes envolve a identificação da causa raiz e a remoção de malware ou outros componentes maliciosos?
+   a) Contenção
+   b) Erradicação
+   c) Recuperação
+   d) Análise
+
+4. Qual método de autenticação combina algo que você sabe, algo que você tem e algo que você é?
+   a) Autenticação de fator único
+   b) Autenticação de dois fatores
+   c) Autenticação multifator
+   d) Autenticação federada
+
+5. Qual sistema permite que organizações controlem quais dispositivos podem se conectar à rede com base em sua conformidade com políticas de segurança?
+   a) Firewall
+   b) IPS (Intrusion Prevention System)
+   c) NAC (Network Access Control)
+   d) VPN (Virtual Private Network)
+
+6. Qual tecnologia permite que um usuário faça login uma vez e acesse múltiplos sistemas sem precisar se autenticar novamente?
+   a) LDAP (Lightweight Directory Access Protocol)
+   b) SSO (Single Sign-On)
+   c) RADIUS (Remote Authentication Dial-In User Service)
+   d) Kerberos
+
+7. Qual protocolo é usado para autenticação federada, permitindo que um provedor de identidade compartilhe informações de autenticação com provedores de serviço?
+   a) OAuth
+   b) OpenID Connect
+   c) SAML (Security Assertion Markup Language)
+   d) LDAP
+
+8. Qual ferramenta é usada para automatizar e orquestrar respostas a alertas de segurança?
+   a) SIEM (Security Information and Event Management)
+   b) SOAR (Security Orchestration, Automation and Response)
+   c) EDR (Endpoint Detection and Response)
+   d) TIP (Threat Intelligence Platform)
+
+9. Qual processo envolve a verificação regular de que usuários ainda precisam de seus acessos atuais?
+   a) Provisionamento de usuário
+   b) Autenticação
+   c) Autorização
+   d) Revisão de acesso
+
+10. Qual método de sanitização de dados é mais apropriado para discos rígidos contendo informações altamente sensíveis que não serão reutilizados?
+    a) Sobrescrita de dados
+    b) Desmagnetização
+    c) Destruição física
+    d) Criptografia
+
+### Respostas e Explicações
+
+1. **b) SIEM (Security Information and Event Management)**
+   *Explicação*: SIEM é uma solução que combina SIM (Security Information Management) e SEM (Security Event Management) para fornecer análise em tempo real de alertas de segurança gerados por hardware e software de rede.
+
+2. **c) RBAC (Role-Based Access Control)**
+   *Explicação*: RBAC atribui permissões a funções específicas dentro de uma organização, e os usuários recebem permissões apropriadas através da atribuição a essas funções.
+
+3. **b) Erradicação**
+   *Explicação*: A fase de erradicação envolve a remoção da causa raiz do incidente, como malware, contas comprometidas ou vulnerabilidades exploradas.
+
+4. **c) Autenticação multifator**
+   *Explicação*: A autenticação multifator combina múltiplos fatores de autenticação, que podem incluir algo que você sabe (senha), algo que você tem (token) e algo que você é (biometria).
+
+5. **c) NAC (Network Access Control)**
+   *Explicação*: NAC permite que organizações controlem o acesso à rede com base na identidade do usuário, na postura de segurança do dispositivo e em políticas organizacionais.
+
+6. **b) SSO (Single Sign-On)**
+   *Explicação*: SSO permite que um usuário faça login uma vez e acesse múltiplos sistemas ou aplicações sem precisar se autenticar novamente durante a sessão.
+
+7. **c) SAML (Security Assertion Markup Language)**
+   *Explicação*: SAML é um padrão baseado em XML para trocar dados de autenticação e autorização entre domínios, especialmente usado para SSO baseado em navegador.
+
+8. **b) SOAR (Security Orchestration, Automation and Response)**
+   *Explicação*: SOAR permite que organizações coletem dados sobre ameaças de segurança e respondam a incidentes de baixo nível sem intervenção humana, automatizando fluxos de trabalho de segurança.
+
+9. **d) Revisão de acesso**
+   *Explicação*: Revisões de acesso são processos periódicos para verificar se os usuários ainda precisam dos acessos que possuem, ajudando a prevenir acumulação de privilégios e contas órfãs.
+
+10. **c) Destruição física**
+    *Explicação*: Para discos contendo informações altamente sensíveis que não serão reutilizados, a destruição física (trituração, desintegração, incineração) é o método mais seguro de sanitização.
+
+## Domínio 5: Gerenciamento e Supervisão de Programas de Segurança
+
+### Questões de Múltipla Escolha
+
+1. Qual documento de alto nível define as intenções e direções da gerência em relação à segurança da informação?
+   a) Procedimento
+   b) Padrão
+   c) Política
+   d) Diretriz
+
+2. Uma empresa calcula que um incidente de segurança custaria $100.000 (SLE) e tem 25% de chance de ocorrer em um ano (ARO). Qual é a Expectativa de Perda Anualizada (ALE)?
+   a) $25.000
+   b) $100.000
+   c) $400.000
+   d) $125.000
+
+3. Qual estratégia de tratamento de risco envolve a implementação de controles para reduzir a probabilidade ou o impacto de um risco?
+   a) Aceitar
+   b) Transferir
+   c) Evitar
+   d) Mitigar
+
+4. Qual tipo de acordo define os níveis de serviço esperados, como disponibilidade e tempo de resposta, entre um cliente e um fornecedor?
+   a) NDA (Non-Disclosure Agreement)
+   b) SLA (Service Level Agreement)
+   c) MOU (Memorandum of Understanding)
+   d) BPA (Business Partners Agreement)
+
+5. Qual regulamento de privacidade introduziu o conceito de "controlador" e "processador" de dados?
+   a) HIPAA
+   b) SOX
+   c) GDPR
+   d) PCI DSS
+
+6. Qual tipo de teste de penetração fornece ao testador conhecimento completo da arquitetura e código do sistema alvo?
+   a) Black box
+   b) Gray box
+   c) White box
+   d) Red team
+
+7. Qual é o objetivo principal de um programa de conscientização sobre segurança?
+   a) Treinar usuários para se tornarem especialistas em segurança
+   b) Reduzir o risco de incidentes causados por erro humano
+   c) Eliminar a necessidade de controles técnicos
+   d) Transferir a responsabilidade pela segurança para os usuários
+
+8. Qual das seguintes NÃO é uma consequência típica da não conformidade com regulamentos?
+   a) Multas
+   b) Dano reputacional
+   c) Aumento automático no orçamento de segurança
+   d) Sanções regulatórias
+
+9. Qual processo envolve a revisão e certificação periódica de que os acessos e permissões dos usuários ainda são apropriados?
+   a) Autenticação
+   b) Autorização
+   c) Atestado
+   d) Auditoria
+
+10. Qual método é mais eficaz para treinar usuários a reconhecer tentativas de phishing?
+    a) Distribuição de políticas de segurança
+    b) Campanhas simuladas de phishing
+    c) Palestras sobre segurança
+    d) Vídeos de treinamento
+
+### Respostas e Explicações
+
+1. **c) Política**
+   *Explicação*: Políticas são documentos de alto nível que definem as intenções e direções da gerência. Procedimentos são instruções detalhadas, padrões são requisitos específicos, e diretrizes são recomendações.
+
+2. **a) $25.000**
+   *Explicação*: ALE = SLE × ARO = $100.000 × 0,25 = $25.000. A Expectativa de Perda Anualizada é o custo anual esperado de um risco específico.
+
+3. **d) Mitigar**
+   *Explicação*: Mitigar envolve implementar controles para reduzir a probabilidade ou o impacto de um risco. Aceitar é reconhecer o risco sem ação, transferir é passar o risco para terceiros, e evitar é eliminar a atividade que causa o risco.
+
+4. **b) SLA (Service Level Agreement)**
+   *Explicação*: Um SLA define os níveis de serviço esperados, como disponibilidade, desempenho e tempo de resposta, e as penalidades por não cumpri-los.
+
+5. **c) GDPR**
+   *Explicação*: O GDPR (General Data Protection Regulation) introduziu formalmente os conceitos de "controlador" (entidade que determina os propósitos e meios de processamento) e "processador" (entidade que processa dados em nome do controlador).
+
+6. **c) White box**
+   *Explicação*: Em testes white box, o testador tem conhecimento completo do sistema alvo, incluindo arquitetura, código-fonte e documentação. Black box não fornece conhecimento prévio, e gray box fornece conhecimento parcial.
+
+7. **b) Reduzir o risco de incidentes causados por erro humano**
+   *Explicação*: O objetivo principal de programas de conscientização é educar os usuários sobre ameaças e comportamentos seguros, reduzindo a probabilidade de incidentes causados por erro humano.
+
+8. **c) Aumento automático no orçamento de segurança**
+   *Explicação*: Embora a não conformidade possa levar a argumentos para aumentar o orçamento de segurança, isso não é uma consequência automática. Multas, dano reputacional e sanções são consequências típicas.
+
+9. **c) Atestado**
+   *Explicação*: Atestado (attestation) é o processo de revisar e certificar formalmente que os acessos e permissões dos usuários ainda são apropriados e necessários.
+
+10. **b) Campanhas simuladas de phishing**
+    *Explicação*: Campanhas simuladas de phishing são consideradas o método mais eficaz para treinar usuários a reconhecer e responder apropriadamente a tentativas de phishing, pois fornecem experiência prática e feedback imediato.
+
+## Questões Baseadas em Desempenho (PBQs) Adicionais
+
+### PBQ 1: Configuração de Firewall
+
+**Cenário**: Você é o administrador de segurança de uma empresa que está implementando um novo firewall para proteger sua rede. A empresa tem os seguintes requisitos:
+
+- Permitir acesso HTTP e HTTPS de qualquer fonte para o servidor web público (192.168.1.10)
+- Permitir acesso SSH apenas da rede de administração (10.10.10.0/24) para todos os servidores
+- Bloquear todo o tráfego P2P
+- Permitir que os funcionários (rede 172.16.0.0/16) acessem a internet via HTTP e HTTPS
+- Bloquear todo o outro tráfego
+
+**Tarefa**: Configure as regras de firewall arrastando e soltando as regras na ordem correta. Para cada regra, selecione a ação (Permitir/Bloquear), o protocolo, a fonte, o destino e a porta.
+
+**Regras Disponíveis**:
+1. Ação: [Permitir/Bloquear], Protocolo: [TCP], Fonte: [Qualquer], Destino: [192.168.1.10], Porta: [80, 443]
+2. Ação: [Permitir/Bloquear], Protocolo: [TCP], Fonte: [10.10.10.0/24], Destino: [Qualquer], Porta: [22]
+3. Ação: [Permitir/Bloquear], Protocolo: [Qualquer], Fonte: [Qualquer], Destino: [Qualquer], Porta: [P2P]
+4. Ação: [Permitir/Bloquear], Protocolo: [TCP], Fonte: [172.16.0.0/16], Destino: [Qualquer], Porta: [80, 443]
+5. Ação: [Permitir/Bloquear], Protocolo: [Qualquer], Fonte: [Qualquer], Destino: [Qualquer], Porta: [Qualquer]
+
+**Solução**:
+1. Permitir, TCP, Qualquer, 192.168.1.10, 80, 443
+2. Permitir, TCP, 10.10.10.0/24, Qualquer, 22
+3. Bloquear, Qualquer, Qualquer, Qualquer, P2P
+4. Permitir, TCP, 172.16.0.0/16, Qualquer, 80, 443
+5. Bloquear, Qualquer, Qualquer, Qualquer, Qualquer
+
+### PBQ 2: Análise de Vulnerabilidades e Priorização
+
+**Cenário**: Você é o analista de segurança de uma empresa de comércio eletrônico. Uma varredura de vulnerabilidades recente identificou as seguintes vulnerabilidades em sistemas críticos:
+
+1. **CVE-2023-1234**: Vulnerabilidade de execução remota de código no servidor web de produção. CVSS: 9.8 (Crítica)
+2. **CVE-2023-5678**: Vulnerabilidade de elevação de privilégios no servidor de banco de dados. CVSS: 7.8 (Alta)
+3. **CVE-2023-9012**: Vulnerabilidade de cross-site scripting no site de comércio eletrônico. CVSS: 6.5 (Média)
+4. **CVE-2023-3456**: Vulnerabilidade de divulgação de informações no servidor de email. CVSS: 5.2 (Média)
+5. **CVE-2023-7890**: Vulnerabilidade de negação de serviço no firewall. CVSS: 7.5 (Alta)
+
+**Recursos Disponíveis**:
+- Você tem uma janela de manutenção de emergência disponível amanhã (24 horas)
+- Você tem uma janela de manutenção regular programada para o próximo fim de semana (7 dias)
+- Você tem uma janela de manutenção mensal programada para o final do mês (30 dias)
+
+**Tarefa**: Priorize as vulnerabilidades e atribua cada uma a uma janela de manutenção apropriada, considerando o risco para a organização. Arraste cada vulnerabilidade para a janela de manutenção correspondente.
+
+**Solução**:
+- **Janela de Emergência (24 horas)**:
+  - CVE-2023-1234 (Execução remota de código, CVSS 9.8)
+  - CVE-2023-7890 (DoS no firewall, CVSS 7.5)
+
+- **Janela Regular (7 dias)**:
+  - CVE-2023-5678 (Elevação de privilégios, CVSS 7.8)
+  - CVE-2023-9012 (XSS, CVSS 6.5)
+
+- **Janela Mensal (30 dias)**:
+  - CVE-2023-3456 (Divulgação de informações, CVSS 5.2)
+
+### PBQ 3: Identificação de Ataques em Logs
+
+**Cenário**: Você é um analista de segurança investigando possíveis incidentes. Você recebeu os seguintes logs de diferentes sistemas. Analise cada entrada de log e identifique o tipo de ataque ou atividade suspeita.
+
+**Log 1**:
+```
+192.168.1.100 - - [15/Apr/2023:10:15:32 -0500] "GET /login.php?username=admin';DROP TABLE users;-- HTTP/1.1" 500 285
+192.168.1.100 - - [15/Apr/2023:10:15:45 -0500] "GET /login.php?username=admin';SELECT * FROM users WHERE username='admin';-- HTTP/1.1" 500 285
+```
+
+**Log 2**:
+```
+Apr 15 11:23:45 server sshd[12345]: Failed password for root from 203.0.113.10 port 54321 ssh2
+Apr 15 11:23:50 server sshd[12346]: Failed password for root from 203.0.113.10 port 54322 ssh2
+Apr 15 11:23:55 server sshd[12347]: Failed password for root from 203.0.113.10 port 54323 ssh2
+... [100 more similar entries] ...
+```
+
+**Log 3**:
+```
+[15/Apr/2023:14:32:11 -0500] "GET /index.html HTTP/1.1" 200 4523
+[15/Apr/2023:14:32:12 -0500] "GET /script.js HTTP/1.1" 200 2145
+[15/Apr/2023:14:32:13 -0500] "GET /style.css HTTP/1.1" 200 1678
+[15/Apr/2023:14:32:14 -0500] "GET /admin HTTP/1.1" 403 213
+[15/Apr/2023:14:32:15 -0500] "GET /admin/config HTTP/1.1" 403 213
+[15/Apr/2023:14:32:16 -0500] "GET /admin/users HTTP/1.1" 403 213
+... [50 more similar entries with different paths] ...
+```
+
+**Log 4**:
+```
+Apr 15 15:45:12 server kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:11:22:33:44:55:66:77:88:99:aa:bb:cc:dd SRC=198.51.100.75 DST=192.168.1.10 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=12345 PROTO=TCP SPT=31337 DPT=80 WINDOW=65535 RES=0x00 SYN URGP=0
+Apr 15 15:45:13 server kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:11:22:33:44:55:66:77:88:99:aa:bb:cc:dd SRC=198.51.100.75 DST=192.168.1.10 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=12346 PROTO=TCP SPT=31337 DPT=443 WINDOW=65535 RES=0x00 SYN URGP=0
+Apr 15 15:45:14 server kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:11:22:33:44:55:66:77:88:99:aa:bb:cc:dd SRC=198.51.100.75 DST=192.168.1.10 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=12347 PROTO=TCP SPT=31337 DPT=22 WINDOW=65535 RES=0x00 SYN URGP=0
+... [1000 more similar entries with different ports] ...
+```
+
+**Tarefa**: Para cada conjunto de logs, identifique o tipo de ataque ou atividade suspeita.
+
+**Opções**:
+- Injeção SQL
+- Força bruta
+- Varredura de diretório
+- Varredura de porta
+- Cross-Site Scripting (XSS)
+- Negação de Serviço (DoS)
+- Man-in-the-Middle
+- Phishing
+- Malware
+- Atividade normal
+
+**Solução**:
+- **Log 1**: Injeção SQL
+- **Log 2**: Força bruta
+- **Log 3**: Varredura de diretório
+- **Log 4**: Varredura de porta
+
+### PBQ 4: Implementação de Controles de Segurança
+
+**Cenário**: Você é o consultor de segurança para uma pequena empresa que recentemente sofreu um incidente de segurança. A empresa tem recursos limitados e precisa implementar controles de segurança eficazes com um orçamento restrito. A empresa tem os seguintes ativos:
+
+- 1 servidor web que hospeda o site da empresa
+- 1 servidor de arquivos para armazenamento de documentos internos
+- 10 estações de trabalho para funcionários
+- 5 laptops para funcionários que trabalham remotamente
+- 1 roteador/firewall para conectividade com a internet
+
+**Tarefa**: Para cada ativo, selecione os dois controles de segurança mais importantes a serem implementados, considerando eficácia, custo e facilidade de implementação.
+
+**Opções de Controle**:
+1. Firewall de aplicação web (WAF)
+2. Sistema de detecção/prevenção de intrusão (IDS/IPS)
+3. Autenticação multifator (MFA)
+4. Criptografia de disco completo
+5. Software antivírus/antimalware
+6. Backup regular
+7. Segmentação de rede
+8. Gerenciamento de patches
+9. Controle de acesso baseado em função (RBAC)
+10. Monitoramento de logs
+11. Firewall de host
+12. VPN para acesso remoto
+
+**Solução**:
+- **Servidor Web**:
+  1. Firewall de aplicação web (WAF)
+  2. Gerenciamento de patches
+
+- **Servidor de Arquivos**:
+  1. Backup regular
+  2. Controle de acesso baseado em função (RBAC)
+
+- **Estações de Trabalho**:
+  1. Software antivírus/antimalware
+  2. Gerenciamento de patches
+
+- **Laptops**:
+  1. Criptografia de disco completo
+  2. VPN para acesso remoto
+
+- **Roteador/Firewall**:
+  1. Segmentação de rede
+  2. Monitoramento de logs
+
+Estas questões práticas adicionais ajudarão a reforçar seu conhecimento e preparação para o exame CompTIA Security+ SY0-701. Pratique-as regularmente e revise as explicações para entender completamente os conceitos testados.
+0:{"P":null,"b":"hpIZvsXmOP5SXhmjHIVG5","p":"/Material_Security_Plus","c":["","questoes"],"i":false,"f":[[["",{"children":["questoes",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/Material_Security_Plus/_next/static/css/6e96c948ff984f9f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"pt-BR","children":["$","body",null,{"className":"__className_f22642 bg-gray-50","children":[["$","$L2",null,{}]," ",["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"bg-gray-800 text-white py-6 mt-12","children":["$","div",null,{"className":"container mx-auto px-4 text-center","children":[["$","p",null,{"children":"Material de Estudo CompTIA Security+ SY0-701 © 2025"}],["$","p",null,{"className":"text-sm mt-2","children":"Este site foi criado para fins educacionais. CompTIA é uma marca registrada da Computing Technology Industry Association."}]]}]}]]}]}]]}],{"children":["questoes",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","questoes","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","div",null,{"className":"container mx-auto px-4 py-8","children":["$","div",null,{"className":"grid md:grid-cols-4 gap-8","children":[["$","div",null,{"className":"md:col-span-1","children":["$","$L5",null,{"content":"$6"}]}],["$","div",null,{"className":"md:col-span-3","children":["$","article",null,{"className":"prose lg:prose-xl max-w-none bg-white p-6 rounded-lg shadow-md","children":[["$","h1","h1-0",{"id":"questões-práticas-adicionais---comptia-security-sy0-701","children":"Questões Práticas Adicionais - CompTIA Security+ SY0-701"}],"\n",["$","p","p-0",{"children":"Este documento contém questões práticas adicionais para ajudar na sua preparação para o exame CompTIA Security+ SY0-701. As questões estão organizadas por domínio e incluem tanto questões de múltipla escolha quanto questões baseadas em desempenho (PBQs)."}],"\n",["$","h2","h2-0",{"id":"domínio-1-conceitos-gerais-de-segurança","children":"Domínio 1: Conceitos Gerais de Segurança"}],"\n",["$","h3","h3-0",{"id":"questões-de-múltipla-escolha","children":"Questões de Múltipla Escolha"}],"\n",["$","ol","ol-0",{"children":["\n",["$","li","li-0",{"children":["\n",["$","p","p-0",{"children":"Uma empresa implementou um sistema onde os funcionários precisam usar um crachá para entrar no prédio, digitar um PIN para acessar áreas seguras e passar por um scanner biométrico para entrar na sala de servidores. Que princípio de segurança está sendo implementado?\na) Defesa em profundidade\nb) Menor privilégio\nc) Separação de funções\nd) Segurança por obscuridade"}],"\n"]}],"\n",["$","li","li-1",{"children":["\n",["$","p","p-0",{"children":"Qual dos seguintes NÃO é um exemplo de controle técnico?\na) Firewall\nb) Política de senhas\nc) Criptografia\nd) Sistema de detecção de intrusão"}],"\n"]}],"\n",["$","li","li-2",{"children":["\n",["$","p","p-0",{"children":"Uma organização está implementando um modelo de segurança onde nenhum usuário ou dispositivo é confiável por padrão, e a verificação é contínua. Que modelo está sendo implementado?\na) Perímetro de segurança tradicional\nb) Zero Trust\nc) Defesa em profundidade\nd) Modelo de confiança implícita"}],"\n"]}],"\n",["$","li","li-3",{"children":["\n",["$","p","p-0",{"children":"Qual dos seguintes é um exemplo de controle compensatório?\na) Implementar um firewall para bloquear tráfego não autorizado\nb) Usar um gerador de backup quando a energia principal falha\nc) Implementar monitoramento adicional quando um patch não pode ser aplicado\nd) Treinar funcionários sobre conscientização de segurança"}],"\n"]}],"\n",["$","li","li-4",{"children":["\n",["$","p","p-0",{"children":"Qual princípio da tríade CIA se refere à garantia de que as informações estão corretas e não foram alteradas de forma não autorizada?\na) Confidencialidade\nb) Integridade\nc) Disponibilidade\nd) Autenticidade"}],"\n"]}],"\n",["$","li","li-5",{"children":["\n",["$","p","p-0",{"children":"Uma empresa implementou um sistema onde o gerente de TI não pode aprovar suas próprias solicitações de mudança, e o administrador de rede não pode auditar seus próprios logs. Que princípio de segurança está sendo aplicado?\na) Menor privilégio\nb) Defesa em profundidade\nc) Separação de funções\nd) Necessidade de conhecimento"}],"\n"]}],"\n",["$","li","li-6",{"children":["\n",["$","p","p-0",{"children":"Qual dos seguintes NÃO é um componente típico de um programa de gerenciamento de mudanças?\na) Solicitação de mudança\nb) Avaliação de impacto\nc) Teste de penetração\nd) Aprovação por comitê de mudanças"}],"\n"]}],"\n",["$","li","li-7",{"children":["\n",["$","p","p-0",{"children":"Qual método criptográfico é mais adequado para verificar a integridade de um arquivo baixado?\na) Criptografia simétrica\nb) Criptografia assimétrica\nc) Função de hash\nd) Esteganografia"}],"\n"]}],"\n",["$","li","li-8",{"children":["\n",["$","p","p-0",{"children":"Uma empresa está implementando controles para garantir que apenas pessoas autorizadas possam acessar informações sensíveis. Qual princípio da tríade CIA está sendo abordado?\na) Confidencialidade\nb) Integridade\nc) Disponibilidade\nd) Não-repúdio"}],"\n"]}],"\n",["$","li","li-9",{"children":["\n",["$","p","p-0",{"children":"Qual dos seguintes é um exemplo de controle físico?\na) Firewall\nb) Política de senhas\nc) Porta com fechadura biométrica\nd) Criptografia de disco"}],"\n"]}],"\n"]}],"\n",["$","h3","h3-1",{"id":"respostas-e-explicações","children":"Respostas e Explicações"}],"\n",["$","ol","ol-1",{"children":["\n",["$","li","li-0",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"a) Defesa em profundidade"}],"\n",["$","em","em-0",{"children":"Explicação"}],": A defesa em profundidade envolve múltiplas camadas de controles de segurança. No cenário, há três camadas diferentes de controle de acesso físico (crachá, PIN e biometria)."]}],"\n"]}],"\n",["$","li","li-1",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"b) Política de senhas"}],"\n",["$","em","em-0",{"children":"Explicação"}],": Uma política de senhas é um controle administrativo, pois é uma diretriz documentada. Firewalls, criptografia e sistemas de detecção de intrusão são todos exemplos de controles técnicos."]}],"\n"]}],"\n",["$","li","li-2",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"b) Zero Trust"}],"\n",["$","em","em-0",{"children":"Explicação"}],": O modelo Zero Trust baseia-se no princípio \"nunca confie, sempre verifique\", onde nenhum usuário ou dispositivo é confiável por padrão, independentemente de sua localização (dentro ou fora da rede corporativa)."]}],"\n"]}],"\n",["$","li","li-3",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"c) Implementar monitoramento adicional quando um patch não pode ser aplicado"}],"\n",["$","em","em-0",{"children":"Explicação"}],": Um controle compensatório é implementado quando o controle primário (neste caso, aplicar um patch) não pode ser implementado. O monitoramento adicional compensa a vulnerabilidade não corrigida."]}],"\n"]}],"\n",["$","li","li-4",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"b) Integridade"}],"\n",["$","em","em-0",{"children":"Explicação"}],": A integridade refere-se à garantia de que os dados não foram alterados de forma não autorizada e permanecem precisos e confiáveis."]}],"\n"]}],"\n",["$","li","li-5",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"c) Separação de funções"}],"\n",["$","em","em-0",{"children":"Explicação"}],": A separação de funções garante que nenhum indivíduo tenha controle completo sobre um processo crítico, reduzindo o risco de fraude ou erro."]}],"\n"]}],"\n",["$","li","li-6",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"c) Teste de penetração"}],"\n",["$","em","em-0",{"children":"Explicação"}],": Embora o teste de penetração seja uma prática importante de segurança, ele não é tipicamente um componente do processo de gerenciamento de mudanças. Os outros componentes (solicitação, avaliação de impacto e aprovação) são partes padrão do processo."]}],"\n"]}],"\n",["$","li","li-7",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"c) Função de hash"}],"\n",["$","em","em-0",{"children":"Explicação"}],": As funções de hash (como SHA-256) são usadas para criar uma \"impressão digital\" única de um arquivo, permitindo verificar se o arquivo foi alterado durante o download."]}],"\n"]}],"\n",["$","li","li-8",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"a) Confidencialidade"}],"\n",["$","em","em-0",{"children":"Explicação"}],": A confidencialidade refere-se à proteção de informações contra acesso não autorizado, garantindo que apenas pessoas autorizadas possam acessá-las."]}],"\n"]}],"\n",["$","li","li-9",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"c) Porta com fechadura biométrica"}],"\n",["$","em","em-0",{"children":"Explicação"}],": Controles físicos protegem o ambiente físico e incluem dispositivos como fechaduras, barreiras e sistemas de controle de acesso físico. Firewall e criptografia são controles técnicos, e política de senhas é um controle administrativo."]}],"\n"]}],"\n"]}],"\n",["$","h2","h2-1",{"id":"domínio-2-ameaças-vulnerabilidades-e-mitigações","children":"Domínio 2: Ameaças, Vulnerabilidades e Mitigações"}],"\n",["$","h3","h3-2",{"id":"questões-de-múltipla-escolha-1","children":"Questões de Múltipla Escolha"}],"\n",["$","ol","ol-2",{"children":["\n",["$","li","li-0",{"children":["\n",["$","p","p-0",{"children":"Um atacante envia um email para funcionários fingindo ser do departamento de TI, solicitando que eles cliquem em um link para \"verificar suas credenciais\". Que tipo de ataque é este?\na) Phishing\nb) Vishing\nc) Pretexting\nd) Tailgating"}],"\n"]}],"\n",["$","li","li-1",{"children":["\n",["$","p","p-0",{"children":"Qual vulnerabilidade permite que um atacante insira código malicioso em um site que é então executado no navegador do usuário?\na) Injeção SQL\nb) Cross-Site Scripting (XSS)\nc) Cross-Site Request Forgery (CSRF)\nd) Path Traversal"}],"\n"]}],"\n",["$","li","li-2",{"children":["\n",["$","p","p-0",{"children":"Um atacante consegue acessar um sistema usando credenciais válidas obtidas de um vazamento de dados anterior. Que tipo de ataque é este?\na) Força bruta\nb) Credential stuffing\nc) Dictionary attack\nd) Rainbow table attack"}],"\n"]}],"\n",["$","li","li-3",{"children":["\n",["$","p","p-0",{"children":"Qual das seguintes é a melhor defesa contra ataques de ransomware?\na) Firewall de próxima geração\nb) Sistema de detecção de intrusão\nc) Backups regulares testados e offline\nd) Software antivírus"}],"\n"]}],"\n",["$","li","li-4",{"children":["\n",["$","p","p-0",{"children":"Um atacante modifica o tráfego entre um cliente e um servidor, interceptando e potencialmente alterando a comunicação. Que tipo de ataque é este?\na) DDoS (Distributed Denial of Service)\nb) Man-in-the-Middle\nc) DNS Poisoning\nd) ARP Spoofing"}],"\n"]}],"\n",["$","li","li-5",{"children":["\n",["$","p","p-0",{"children":"Qual vulnerabilidade permite que um atacante execute comandos no sistema operacional através de uma aplicação web?\na) Cross-Site Scripting\nb) Injeção SQL\nc) Command Injection\nd) Broken Authentication"}],"\n"]}],"\n",["$","li","li-6",{"children":["\n",["$","p","p-0",{"children":"Um atacante envia um grande número de pacotes SYN para um servidor, esgotando sua capacidade de estabelecer novas conexões. Que tipo de ataque é este?\na) SYN Flood\nb) UDP Flood\nc) ICMP Flood\nd) HTTP Flood"}],"\n"]}],"\n",["$","li","li-7",{"children":["\n",["$","p","p-0",{"children":"Qual das seguintes NÃO é uma técnica eficaz para mitigar ataques de engenharia social?\na) Treinamento de conscientização de segurança\nb) Implementação de firewall\nc) Verificação em duas etapas para solicitações sensíveis\nd) Políticas claras para lidar com informações sensíveis"}],"\n"]}],"\n",["$","li","li-8",{"children":["\n",["$","p","p-0",{"children":"Um atacante explora uma vulnerabilidade em um software antes que o fornecedor tenha conhecimento dela ou lance um patch. Que tipo de vulnerabilidade é esta?\na) Zero-day\nb) Backdoor\nc) Logic bomb\nd) Rootkit"}],"\n"]}],"\n",["$","li","li-9",{"children":["\n",["$","p","p-0",{"children":"Qual das seguintes é a melhor defesa contra ataques de força bruta em senhas?\na) Política de senhas complexas\nb) Bloqueio de conta após múltiplas tentativas falhas\nc) Autenticação multifator\nd) Rotação regular de senhas"}],"\n"]}],"\n"]}],"\n",["$","h3","h3-3",{"id":"respostas-e-explicações-1","children":"Respostas e Explicações"}],"\n",["$","ol","ol-3",{"children":["\n",["$","li","li-0",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"a) Phishing"}],"\n",["$","em","em-0",{"children":"Explicação"}],": Phishing é um ataque de engenharia social onde o atacante se passa por uma entidade confiável para induzir indivíduos a fornecer informações sensíveis ou clicar em links maliciosos."]}],"\n"]}],"\n",["$","li","li-1",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"b) Cross-Site Scripting (XSS)"}],"\n",["$","em","em-0",{"children":"Explicação"}],": XSS permite que atacantes injetem scripts do lado do cliente em páginas web visualizadas por outros usuários, potencialmente roubando cookies de sessão ou redirecionando para sites maliciosos."]}],"\n"]}],"\n",["$","li","li-2",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"b) Credential stuffing"}],"\n",["$","em","em-0",{"children":"Explicação"}],": Credential stuffing é um tipo de ataque cibernético onde credenciais roubadas (pares de nome de usuário/senha) de um serviço são testadas em outros serviços, explorando a reutilização de senhas."]}],"\n"]}],"\n",["$","li","li-3",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"c) Backups regulares testados e offline"}],"\n",["$","em","em-0",{"children":"Explicação"}],": Embora todas as opções ajudem na defesa, backups regulares, testados e mantidos offline são a melhor defesa contra ransomware, pois permitem a recuperação dos dados sem pagar o resgate."]}],"\n"]}],"\n",["$","li","li-4",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"b) Man-in-the-Middle"}],"\n",["$","em","em-0",{"children":"Explicação"}],": Em um ataque Man-in-the-Middle, o atacante secretamente retransmite e possivelmente altera a comunicação entre duas partes que acreditam estar se comunicando diretamente."]}],"\n"]}],"\n",["$","li","li-5",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"c) Command Injection"}],"\n",["$","em","em-0",{"children":"Explicação"}],": Command Injection permite que um atacante execute comandos arbitrários no sistema operacional hospedeiro através de uma aplicação vulnerável, potencialmente comprometendo o servidor."]}],"\n"]}],"\n",["$","li","li-6",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"a) SYN Flood"}],"\n",["$","em","em-0",{"children":"Explicação"}],": Um ataque SYN Flood envia um grande volume de pacotes SYN para um alvo, mas nunca completa o handshake TCP de três vias, esgotando os recursos do servidor para novas conexões."]}],"\n"]}],"\n",["$","li","li-7",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"b) Implementação de firewall"}],"\n",["$","em","em-0",{"children":"Explicação"}],": Embora firewalls sejam importantes para a segurança geral, eles não são eficazes contra ataques de engenharia social, que exploram o comportamento humano, não vulnerabilidades técnicas."]}],"\n"]}],"\n",["$","li","li-8",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"a) Zero-day"}],"\n",["$","em","em-0",{"children":"Explicação"}],": Uma vulnerabilidade zero-day é uma falha de software desconhecida pelo fornecedor e para a qual não existe patch disponível, tornando-a particularmente perigosa."]}],"\n"]}],"\n",["$","li","li-9",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"c) Autenticação multifator"}],"\n",["$","em","em-0",{"children":"Explicação"}],": A autenticação multifator é a defesa mais eficaz contra ataques de força bruta, pois mesmo que a senha seja comprometida, o atacante ainda precisaria do segundo fator de autenticação."]}],"\n"]}],"\n"]}],"\n",["$","h2","h2-2",{"id":"domínio-3-arquitetura-de-segurança","children":"Domínio 3: Arquitetura de Segurança"}],"\n",["$","h3","h3-4",{"id":"questões-de-múltipla-escolha-2","children":"Questões de Múltipla Escolha"}],"\n",["$","ol","ol-4",{"children":["\n",["$","li","li-0",{"children":["\n",["$","p","p-0",{"children":"Em qual modelo de serviço de nuvem o cliente tem a maior responsabilidade pela segurança?\na) Software as a Service (SaaS)\nb) Platform as a Service (PaaS)\nc) Infrastructure as a Service (IaaS)\nd) Function as a Service (FaaS)"}],"\n"]}],"\n",["$","li","li-1",{"children":["\n",["$","p","p-0",{"children":"Qual tecnologia permite que uma organização divida sua rede em segmentos isolados para limitar o movimento lateral de ameaças?\na) NAT (Network Address Translation)\nb) VPN (Virtual Private Network)\nc) VLAN (Virtual Local Area Network)\nd) DNS (Domain Name System)"}],"\n"]}],"\n",["$","li","li-2",{"children":["\n",["$","p","p-0",{"children":"Qual dispositivo de segurança é melhor para proteger aplicações web contra ataques específicos como injeção SQL e XSS?\na) Firewall de próxima geração\nb) Web Application Firewall (WAF)\nc) Intrusion Prevention System (IPS)\nd) Proxy reverso"}],"\n"]}],"\n",["$","li","li-3",{"children":["\n",["$","p","p-0",{"children":"Qual método de proteção de dados substitui dados sensíveis por valores não sensíveis que mantêm o formato dos dados originais?\na) Criptografia\nb) Hashing\nc) Tokenização\nd) Mascaramento"}],"\n"]}],"\n",["$","li","li-4",{"children":["\n",["$","p","p-0",{"children":"Qual das seguintes é uma medida do tempo máximo aceitável que um sistema pode estar indisponível após um incidente?\na) RPO (Recovery Point Objective)\nb) RTO (Recovery Time Objective)\nc) MTTR (Mean Time to Repair)\nd) MTBF (Mean Time Between Failures)"}],"\n"]}],"\n",["$","li","li-5",{"children":["\n",["$","p","p-0",{"children":"Qual tipo de site de recuperação de desastres é parcialmente equipado com hardware, mas requer configuração adicional antes de estar operacional?\na) Hot site\nb) Warm site\nc) Cold site\nd) Mirror site"}],"\n"]}],"\n",["$","li","li-6",{"children":["\n",["$","p","p-0",{"children":"Em um ambiente de nuvem, qual serviço é responsável por gerenciar e proteger chaves criptográficas?\na) Identity and Access Management (IAM)\nb) Key Management Service (KMS)\nc) Security Groups\nd) Cloud Access Security Broker (CASB)"}],"\n"]}],"\n",["$","li","li-7",{"children":["\n",["$","p","p-0",{"children":"Qual protocolo é usado para criar um túnel seguro para tráfego de rede, frequentemente usado em VPNs?\na) SSH\nb) TLS\nc) IPsec\nd) HTTPS"}],"\n"]}],"\n",["$","li","li-8",{"children":["\n",["$","p","p-0",{"children":"Qual modelo de arquitetura de segurança combina funções de rede e segurança entregues como serviço na borda da nuvem?\na) Zero Trust Network Access (ZTNA)\nb) Software-Defined Perimeter (SDP)\nc) Secure Access Service Edge (SASE)\nd) Cloud Access Security Broker (CASB)"}],"\n"]}],"\n",["$","li","li-9",{"children":["\n",["$","p","p-0",{"children":"Qual das seguintes NÃO é uma consideração típica ao projetar para alta disponibilidade?\na) Redundância de hardware\nb) Balanceamento de carga\nc) Múltiplas zonas de disponibilidade\nd) Criptografia de dados"}],"\n"]}],"\n"]}],"\n",["$","h3","h3-5",{"id":"respostas-e-explicações-2","children":"Respostas e Explicações"}],"\n",["$","ol","ol-5",{"children":["\n",["$","li","li-0",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"c) Infrastructure as a Service (IaaS)"}],"\n",["$","em","em-0",{"children":"Explicação"}],": No modelo IaaS, o cliente é responsável pela segurança do sistema operacional, aplicações, dados e configurações, enquanto o provedor é responsável apenas pela segurança da infraestrutura física e de virtualização."]}],"\n"]}],"\n",["$","li","li-1",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"c) VLAN (Virtual Local Area Network)"}],"\n",["$","em","em-0",{"children":"Explicação"}],": VLANs permitem segmentar logicamente uma rede física em múltiplas redes isoladas, limitando o movimento lateral de ameaças entre segmentos."]}],"\n"]}],"\n",["$","li","li-2",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"b) Web Application Firewall (WAF)"}],"\n",["$","em","em-0",{"children":"Explicação"}],": Um WAF é especificamente projetado para proteger aplicações web contra ataques como injeção SQL, XSS e outros ataques da OWASP Top 10, analisando o tráfego HTTP/HTTPS."]}],"\n"]}],"\n",["$","li","li-3",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"c) Tokenização"}],"\n",["$","em","em-0",{"children":"Explicação"}],": A tokenização substitui dados sensíveis por tokens não sensíveis que mantêm o formato dos dados originais, mas não têm valor exploável. O mapeamento entre tokens e dados originais é armazenado separadamente."]}],"\n"]}],"\n",["$","li","li-4",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"b) RTO (Recovery Time Objective)"}],"\n",["$","em","em-0",{"children":"Explicação"}],": RTO é o tempo máximo aceitável que um sistema pode estar indisponível após um incidente. RPO refere-se à quantidade máxima aceitável de perda de dados."]}],"\n"]}],"\n",["$","li","li-5",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"b) Warm site"}],"\n",["$","em","em-0",{"children":"Explicação"}],": Um warm site é parcialmente equipado com hardware e conexões, mas requer configuração adicional antes de estar totalmente operacional. Um hot site está completamente pronto, e um cold site tem apenas a infraestrutura básica."]}],"\n"]}],"\n",["$","li","li-6",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"b) Key Management Service (KMS)"}],"\n",["$","em","em-0",{"children":"Explicação"}],": KMS é um serviço dedicado para criar, armazenar, gerenciar e controlar o acesso a chaves criptográficas em ambientes de nuvem."]}],"\n"]}],"\n",["$","li","li-7",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"c) IPsec"}],"\n",["$","em","em-0",{"children":"Explicação"}],": IPsec (Internet Protocol Security) é um conjunto de protocolos usado para proteger comunicações IP, frequentemente usado em VPNs site-to-site e algumas VPNs de acesso remoto."]}],"\n"]}],"\n",["$","li","li-8",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"c) Secure Access Service Edge (SASE)"}],"\n",["$","em","em-0",{"children":"Explicação"}],": SASE combina funções de rede (SD-WAN) e segurança (SWG, CASB, FWaaS, ZTNA) como um serviço baseado em nuvem entregue na borda."]}],"\n"]}],"\n",["$","li","li-9",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"d) Criptografia de dados"}],"\n",["$","em","em-0",{"children":"Explicação"}],": Embora a criptografia seja importante para a segurança dos dados, ela não é uma consideração típica para alta disponibilidade. Redundância, balanceamento de carga e distribuição geográfica são fatores críticos para alta disponibilidade."]}],"\n"]}],"\n"]}],"\n",["$","h2","h2-3",{"id":"domínio-4-operações-de-segurança","children":"Domínio 4: Operações de Segurança"}],"\n",["$","h3","h3-6",{"id":"questões-de-múltipla-escolha-3","children":"Questões de Múltipla Escolha"}],"\n",["$","ol","ol-6",{"children":["\n",["$","li","li-0",{"children":["\n",["$","p","p-0",{"children":"Qual ferramenta é usada para agregar logs de várias fontes, correlacionar eventos e gerar alertas baseados em regras predefinidas?\na) IDS (Intrusion Detection System)\nb) SIEM (Security Information and Event Management)\nc) EDR (Endpoint Detection and Response)\nd) DLP (Data Loss Prevention)"}],"\n"]}],"\n",["$","li","li-1",{"children":["\n",["$","p","p-0",{"children":"Qual modelo de controle de acesso baseia-se em funções atribuídas aos usuários para determinar permissões?\na) DAC (Discretionary Access Control)\nb) MAC (Mandatory Access Control)\nc) RBAC (Role-Based Access Control)\nd) ABAC (Attribute-Based Access Control)"}],"\n"]}],"\n",["$","li","li-2",{"children":["\n",["$","p","p-0",{"children":"Qual fase do processo de resposta a incidentes envolve a identificação da causa raiz e a remoção de malware ou outros componentes maliciosos?\na) Contenção\nb) Erradicação\nc) Recuperação\nd) Análise"}],"\n"]}],"\n",["$","li","li-3",{"children":["\n",["$","p","p-0",{"children":"Qual método de autenticação combina algo que você sabe, algo que você tem e algo que você é?\na) Autenticação de fator único\nb) Autenticação de dois fatores\nc) Autenticação multifator\nd) Autenticação federada"}],"\n"]}],"\n",["$","li","li-4",{"children":["\n",["$","p","p-0",{"children":"Qual sistema permite que organizações controlem quais dispositivos podem se conectar à rede com base em sua conformidade com políticas de segurança?\na) Firewall\nb) IPS (Intrusion Prevention System)\nc) NAC (Network Access Control)\nd) VPN (Virtual Private Network)"}],"\n"]}],"\n",["$","li","li-5",{"children":["\n",["$","p","p-0",{"children":"Qual tecnologia permite que um usuário faça login uma vez e acesse múltiplos sistemas sem precisar se autenticar novamente?\na) LDAP (Lightweight Directory Access Protocol)\nb) SSO (Single Sign-On)\nc) RADIUS (Remote Authentication Dial-In User Service)\nd) Kerberos"}],"\n"]}],"\n",["$","li","li-6",{"children":["\n",["$","p","p-0",{"children":"Qual protocolo é usado para autenticação federada, permitindo que um provedor de identidade compartilhe informações de autenticação com provedores de serviço?\na) OAuth\nb) OpenID Connect\nc) SAML (Security Assertion Markup Language)\nd) LDAP"}],"\n"]}],"\n",["$","li","li-7",{"children":["\n",["$","p","p-0",{"children":"Qual ferramenta é usada para automatizar e orquestrar respostas a alertas de segurança?\na) SIEM (Security Information and Event Management)\nb) SOAR (Security Orchestration, Automation and Response)\nc) EDR (Endpoint Detection and Response)\nd) TIP (Threat Intelligence Platform)"}],"\n"]}],"\n",["$","li","li-8",{"children":["\n",["$","p","p-0",{"children":"Qual processo envolve a verificação regular de que usuários ainda precisam de seus acessos atuais?\na) Provisionamento de usuário\nb) Autenticação\nc) Autorização\nd) Revisão de acesso"}],"\n"]}],"\n",["$","li","li-9",{"children":["\n",["$","p","p-0",{"children":"Qual método de sanitização de dados é mais apropriado para discos rígidos contendo informações altamente sensíveis que não serão reutilizados?\na) Sobrescrita de dados\nb) Desmagnetização\nc) Destruição física\nd) Criptografia"}],"\n"]}],"\n"]}],"\n",["$","h3","h3-7",{"id":"respostas-e-explicações-3","children":"Respostas e Explicações"}],"\n",["$","ol","ol-7",{"children":["\n",["$","li","li-0",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"b) SIEM (Security Information and Event Management)"}],"\n",["$","em","em-0",{"children":"Explicação"}],": SIEM é uma solução que combina SIM (Security Information Management) e SEM (Security Event Management) para fornecer análise em tempo real de alertas de segurança gerados por hardware e software de rede."]}],"\n"]}],"\n",["$","li","li-1",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"c) RBAC (Role-Based Access Control)"}],"\n",["$","em","em-0",{"children":"Explicação"}],": RBAC atribui permissões a funções específicas dentro de uma organização, e os usuários recebem permissões apropriadas através da atribuição a essas funções."]}],"\n"]}],"\n",["$","li","li-2",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"b) Erradicação"}],"\n",["$","em","em-0",{"children":"Explicação"}],": A fase de erradicação envolve a remoção da causa raiz do incidente, como malware, contas comprometidas ou vulnerabilidades exploradas."]}],"\n"]}],"\n",["$","li","li-3",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"c) Autenticação multifator"}],"\n",["$","em","em-0",{"children":"Explicação"}],": A autenticação multifator combina múltiplos fatores de autenticação, que podem incluir algo que você sabe (senha), algo que você tem (token) e algo que você é (biometria)."]}],"\n"]}],"\n",["$","li","li-4",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"c) NAC (Network Access Control)"}],"\n",["$","em","em-0",{"children":"Explicação"}],": NAC permite que organizações controlem o acesso à rede com base na identidade do usuário, na postura de segurança do dispositivo e em políticas organizacionais."]}],"\n"]}],"\n",["$","li","li-5",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"b) SSO (Single Sign-On)"}],"\n",["$","em","em-0",{"children":"Explicação"}],": SSO permite que um usuário faça login uma vez e acesse múltiplos sistemas ou aplicações sem precisar se autenticar novamente durante a sessão."]}],"\n"]}],"\n",["$","li","li-6",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"c) SAML (Security Assertion Markup Language)"}],"\n",["$","em","em-0",{"children":"Explicação"}],": SAML é um padrão baseado em XML para trocar dados de autenticação e autorização entre domínios, especialmente usado para SSO baseado em navegador."]}],"\n"]}],"\n",["$","li","li-7",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"b) SOAR (Security Orchestration, Automation and Response)"}],"\n",["$","em","em-0",{"children":"Explicação"}],": SOAR permite que organizações coletem dados sobre ameaças de segurança e respondam a incidentes de baixo nível sem intervenção humana, automatizando fluxos de trabalho de segurança."]}],"\n"]}],"\n",["$","li","li-8",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"d) Revisão de acesso"}],"\n",["$","em","em-0",{"children":"Explicação"}],": Revisões de acesso são processos periódicos para verificar se os usuários ainda precisam dos acessos que possuem, ajudando a prevenir acumulação de privilégios e contas órfãs."]}],"\n"]}],"\n",["$","li","li-9",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"c) Destruição física"}],"\n",["$","em","em-0",{"children":"Explicação"}],": Para discos contendo informações altamente sensíveis que não serão reutilizados, a destruição física (trituração, desintegração, incineração) é o método mais seguro de sanitização."]}],"\n"]}],"\n"]}],"\n",["$","h2","h2-4",{"id":"domínio-5-gerenciamento-e-supervisão-de-programas-de-segurança","children":"Domínio 5: Gerenciamento e Supervisão de Programas de Segurança"}],"\n",["$","h3","h3-8",{"id":"questões-de-múltipla-escolha-4","children":"Questões de Múltipla Escolha"}],"\n",["$","ol","ol-8",{"children":["\n",["$","li","li-0",{"children":["\n",["$","p","p-0",{"children":"Qual documento de alto nível define as intenções e direções da gerência em relação à segurança da informação?\na) Procedimento\nb) Padrão\nc) Política\nd) Diretriz"}],"\n"]}],"\n",["$","li","li-1",{"children":["\n",["$","p","p-0",{"children":"Uma empresa calcula que um incidente de segurança custaria $100.000 (SLE) e tem 25% de chance de ocorrer em um ano (ARO). Qual é a Expectativa de Perda Anualizada (ALE)?\na) $25.000\nb) $100.000\nc) $400.000\nd) $125.000"}],"\n"]}],"\n",["$","li","li-2",{"children":["\n",["$","p","p-0",{"children":"Qual estratégia de tratamento de risco envolve a implementação de controles para reduzir a probabilidade ou o impacto de um risco?\na) Aceitar\nb) Transferir\nc) Evitar\nd) Mitigar"}],"\n"]}],"\n",["$","li","li-3",{"children":["\n",["$","p","p-0",{"children":"Qual tipo de acordo define os níveis de serviço esperados, como disponibilidade e tempo de resposta, entre um cliente e um fornecedor?\na) NDA (Non-Disclosure Agreement)\nb) SLA (Service Level Agreement)\nc) MOU (Memorandum of Understanding)\nd) BPA (Business Partners Agreement)"}],"\n"]}],"\n",["$","li","li-4",{"children":["\n",["$","p","p-0",{"children":"Qual regulamento de privacidade introduziu o conceito de \"controlador\" e \"processador\" de dados?\na) HIPAA\nb) SOX\nc) GDPR\nd) PCI DSS"}],"\n"]}],"\n",["$","li","li-5",{"children":["\n",["$","p","p-0",{"children":"Qual tipo de teste de penetração fornece ao testador conhecimento completo da arquitetura e código do sistema alvo?\na) Black box\nb) Gray box\nc) White box\nd) Red team"}],"\n"]}],"\n",["$","li","li-6",{"children":["\n",["$","p","p-0",{"children":"Qual é o objetivo principal de um programa de conscientização sobre segurança?\na) Treinar usuários para se tornarem especialistas em segurança\nb) Reduzir o risco de incidentes causados por erro humano\nc) Eliminar a necessidade de controles técnicos\nd) Transferir a responsabilidade pela segurança para os usuários"}],"\n"]}],"\n",["$","li","li-7",{"children":["\n",["$","p","p-0",{"children":"Qual das seguintes NÃO é uma consequência típica da não conformidade com regulamentos?\na) Multas\nb) Dano reputacional\nc) Aumento automático no orçamento de segurança\nd) Sanções regulatórias"}],"\n"]}],"\n",["$","li","li-8",{"children":["\n",["$","p","p-0",{"children":"Qual processo envolve a revisão e certificação periódica de que os acessos e permissões dos usuários ainda são apropriados?\na) Autenticação\nb) Autorização\nc) Atestado\nd) Auditoria"}],"\n"]}],"\n",["$","li","li-9",{"children":["\n",["$","p","p-0",{"children":"Qual método é mais eficaz para treinar usuários a reconhecer tentativas de phishing?\na) Distribuição de políticas de segurança\nb) Campanhas simuladas de phishing\nc) Palestras sobre segurança\nd) Vídeos de treinamento"}],"\n"]}],"\n"]}],"\n",["$","h3","h3-9",{"id":"respostas-e-explicações-4","children":"Respostas e Explicações"}],"\n",["$","ol","ol-9",{"children":["\n",["$","li","li-0",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"c) Política"}],"\n",["$","em","em-0",{"children":"Explicação"}],": Políticas são documentos de alto nível que definem as intenções e direções da gerência. Procedimentos são instruções detalhadas, padrões são requisitos específicos, e diretrizes são recomendações."]}],"\n"]}],"\n",["$","li","li-1",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"a) $25.000"}],"\n",["$","em","em-0",{"children":"Explicação"}],": ALE = SLE × ARO = $100.000 × 0,25 = $25.000. A Expectativa de Perda Anualizada é o custo anual esperado de um risco específico."]}],"\n"]}],"\n",["$","li","li-2",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"d) Mitigar"}],"\n",["$","em","em-0",{"children":"Explicação"}],": Mitigar envolve implementar controles para reduzir a probabilidade ou o impacto de um risco. Aceitar é reconhecer o risco sem ação, transferir é passar o risco para terceiros, e evitar é eliminar a atividade que causa o risco."]}],"\n"]}],"\n",["$","li","li-3",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"b) SLA (Service Level Agreement)"}],"\n",["$","em","em-0",{"children":"Explicação"}],": Um SLA define os níveis de serviço esperados, como disponibilidade, desempenho e tempo de resposta, e as penalidades por não cumpri-los."]}],"\n"]}],"\n",["$","li","li-4",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"c) GDPR"}],"\n",["$","em","em-0",{"children":"Explicação"}],": O GDPR (General Data Protection Regulation) introduziu formalmente os conceitos de \"controlador\" (entidade que determina os propósitos e meios de processamento) e \"processador\" (entidade que processa dados em nome do controlador)."]}],"\n"]}],"\n",["$","li","li-5",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"c) White box"}],"\n",["$","em","em-0",{"children":"Explicação"}],": Em testes white box, o testador tem conhecimento completo do sistema alvo, incluindo arquitetura, código-fonte e documentação. Black box não fornece conhecimento prévio, e gray box fornece conhecimento parcial."]}],"\n"]}],"\n",["$","li","li-6",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"b) Reduzir o risco de incidentes causados por erro humano"}],"\n",["$","em","em-0",{"children":"Explicação"}],": O objetivo principal de programas de conscientização é educar os usuários sobre ameaças e comportamentos seguros, reduzindo a probabilidade de incidentes causados por erro humano."]}],"\n"]}],"\n",["$","li","li-7",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"c) Aumento automático no orçamento de segurança"}],"\n",["$","em","em-0",{"children":"Explicação"}],": Embora a não conformidade possa levar a argumentos para aumentar o orçamento de segurança, isso não é uma consequência automática. Multas, dano reputacional e sanções são consequências típicas."]}],"\n"]}],"\n",["$","li","li-8",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"c) Atestado"}],"\n",["$","em","em-0",{"children":"Explicação"}],": Atestado (attestation) é o processo de revisar e certificar formalmente que os acessos e permissões dos usuários ainda são apropriados e necessários."]}],"\n"]}],"\n",["$","li","li-9",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"b) Campanhas simuladas de phishing"}],"\n",["$","em","em-0",{"children":"Explicação"}],": Campanhas simuladas de phishing são consideradas o método mais eficaz para treinar usuários a reconhecer e responder apropriadamente a tentativas de phishing, pois fornecem experiência prática e feedback imediato."]}],"\n"]}],"\n"]}],"\n",["$","h2","h2-5",{"id":"questões-baseadas-em-desempenho-pbqs-adicionais","children":"Questões Baseadas em Desempenho (PBQs) Adicionais"}],"\n",["$","h3","h3-10",{"id":"pbq-1-configuração-de-firewall","children":"PBQ 1: Configuração de Firewall"}],"\n",["$","p","p-1",{"children":[["$","strong","strong-0",{"children":"Cenário"}],": Você é o administrador de segurança de uma empresa que está implementando um novo firewall para proteger sua rede. A empresa tem os seguintes requisitos:"]}],"\n",["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":"Permitir acesso HTTP e HTTPS de qualquer fonte para o servidor web público (192.168.1.10)"}],"\n",["$","li","li-1",{"children":"Permitir acesso SSH apenas da rede de administração (10.10.10.0/24) para todos os servidores"}],"\n",["$","li","li-2",{"children":"Bloquear todo o tráfego P2P"}],"\n",["$","li","li-3",{"children":"Permitir que os funcionários (rede 172.16.0.0/16) acessem a internet via HTTP e HTTPS"}],"\n",["$","li","li-4",{"children":"Bloquear todo o outro tráfego"}],"\n"]}],"\n",["$","p","p-2",{"children":[["$","strong","strong-0",{"children":"Tarefa"}],": Configure as regras de firewall arrastando e soltando as regras na ordem correta. Para cada regra, selecione a ação (Permitir/Bloquear), o protocolo, a fonte, o destino e a porta."]}],"\n",["$","p","p-3",{"children":[["$","strong","strong-0",{"children":"Regras Disponíveis"}],":"]}],"\n",["$","ol","ol-10",{"children":["\n",["$","li","li-0",{"children":"Ação: [Permitir/Bloquear], Protocolo: [TCP], Fonte: [Qualquer], Destino: [192.168.1.10], Porta: [80, 443]"}],"\n",["$","li","li-1",{"children":"Ação: [Permitir/Bloquear], Protocolo: [TCP], Fonte: [10.10.10.0/24], Destino: [Qualquer], Porta: [22]"}],"\n",["$","li","li-2",{"children":"Ação: [Permitir/Bloquear], Protocolo: [Qualquer], Fonte: [Qualquer], Destino: [Qualquer], Porta: [P2P]"}],"\n",["$","li","li-3",{"children":"Ação: [Permitir/Bloquear], Protocolo: [TCP], Fonte: [172.16.0.0/16], Destino: [Qualquer], Porta: [80, 443]"}],"\n",["$","li","li-4",{"children":"Ação: [Permitir/Bloquear], Protocolo: [Qualquer], Fonte: [Qualquer], Destino: [Qualquer], Porta: [Qualquer]"}],"\n"]}],"\n",["$","p","p-4",{"children":[["$","strong","strong-0",{"children":"Solução"}],":"]}],"\n",["$","ol","ol-11",{"children":["\n",["$","li","li-0",{"children":"Permitir, TCP, Qualquer, 192.168.1.10, 80, 443"}],"\n",["$","li","li-1",{"children":"Permitir, TCP, 10.10.10.0/24, Qualquer, 22"}],"\n",["$","li","li-2",{"children":"Bloquear, Qualquer, Qualquer, Qualquer, P2P"}],"\n",["$","li","li-3",{"children":"Permitir, TCP, 172.16.0.0/16, Qualquer, 80, 443"}],"\n",["$","li","li-4",{"children":"Bloquear, Qualquer, Qualquer, Qualquer, Qualquer"}],"\n"]}],"\n",["$","h3","h3-11",{"id":"pbq-2-análise-de-vulnerabilidades-e-priorização","children":"PBQ 2: Análise de Vulnerabilidades e Priorização"}],"\n",["$","p","p-5",{"children":[["$","strong","strong-0",{"children":"Cenário"}],": Você é o analista de segurança de uma empresa de comércio eletrônico. Uma varredura de vulnerabilidades recente identificou as seguintes vulnerabilidades em sistemas críticos:"]}],"\n",["$","ol","ol-12",{"children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"CVE-2023-1234"}],": Vulnerabilidade de execução remota de código no servidor web de produção. CVSS: 9.8 (Crítica)"]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"CVE-2023-5678"}],": Vulnerabilidade de elevação de privilégios no servidor de banco de dados. CVSS: 7.8 (Alta)"]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":"CVE-2023-9012"}],": Vulnerabilidade de cross-site scripting no site de comércio eletrônico. CVSS: 6.5 (Média)"]}],"\n",["$","li","li-3",{"children":[["$","strong","strong-0",{"children":"CVE-2023-3456"}],": Vulnerabilidade de divulgação de informações no servidor de email. CVSS: 5.2 (Média)"]}],"\n",["$","li","li-4",{"children":[["$","strong","strong-0",{"children":"CVE-2023-7890"}],": Vulnerabilidade de negação de serviço no firewall. CVSS: 7.5 (Alta)"]}],"\n"]}],"\n",["$","p","p-6",{"children":[["$","strong","strong-0",{"children":"Recursos Disponíveis"}],":"]}],"\n",["$","ul","ul-1",{"children":["\n",["$","li","li-0",{"children":"Você tem uma janela de manutenção de emergência disponível amanhã (24 horas)"}],"\n",["$","li","li-1",{"children":"Você tem uma janela de manutenção regular programada para o próximo fim de semana (7 dias)"}],"\n",["$","li","li-2",{"children":"Você tem uma janela de manutenção mensal programada para o final do mês (30 dias)"}],"\n"]}],"\n",["$","p","p-7",{"children":[["$","strong","strong-0",{"children":"Tarefa"}],": Priorize as vulnerabilidades e atribua cada uma a uma janela de manutenção apropriada, considerando o risco para a organização. Arraste cada vulnerabilidade para a janela de manutenção correspondente."]}],"\n",["$","p","p-8",{"children":[["$","strong","strong-0",{"children":"Solução"}],":"]}],"\n",["$","ul","ul-2",{"children":["\n",["$","li","li-0",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"Janela de Emergência (24 horas)"}],":"]}],"\n",["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":"CVE-2023-1234 (Execução remota de código, CVSS 9.8)"}],"\n",["$","li","li-1",{"children":"CVE-2023-7890 (DoS no firewall, CVSS 7.5)"}],"\n"]}],"\n"]}],"\n",["$","li","li-1",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"Janela Regular (7 dias)"}],":"]}],"\n",["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":"CVE-2023-5678 (Elevação de privilégios, CVSS 7.8)"}],"\n",["$","li","li-1",{"children":"CVE-2023-9012 (XSS, CVSS 6.5)"}],"\n"]}],"\n"]}],"\n",["$","li","li-2",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"Janela Mensal (30 dias)"}],":"]}],"\n",["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":"CVE-2023-3456 (Divulgação de informações, CVSS 5.2)"}],"\n"]}],"\n"]}],"\n"]}],"\n",["$","h3","h3-12",{"id":"pbq-3-identificação-de-ataques-em-logs","children":"PBQ 3: Identificação de Ataques em Logs"}],"\n",["$","p","p-9",{"children":[["$","strong","strong-0",{"children":"Cenário"}],": Você é um analista de segurança investigando possíveis incidentes. Você recebeu os seguintes logs de diferentes sistemas. Analise cada entrada de log e identifique o tipo de ataque ou atividade suspeita."]}],"\n",["$","p","p-10",{"children":[["$","strong","strong-0",{"children":"Log 1"}],":"]}],"\n",["$","pre","pre-0",{"children":["$","code","code-0",{"children":"192.168.1.100 - - [15/Apr/2023:10:15:32 -0500] \"GET /login.php?username=admin';DROP TABLE users;-- HTTP/1.1\" 500 285\n192.168.1.100 - - [15/Apr/2023:10:15:45 -0500] \"GET /login.php?username=admin';SELECT * FROM users WHERE username='admin';-- HTTP/1.1\" 500 285\n"}]}],"\n",["$","p","p-11",{"children":[["$","strong","strong-0",{"children":"Log 2"}],":"]}],"\n",["$","pre","pre-1",{"children":["$","code","code-0",{"children":"Apr 15 11:23:45 server sshd[12345]: Failed password for root from 203.0.113.10 port 54321 ssh2\nApr 15 11:23:50 server sshd[12346]: Failed password for root from 203.0.113.10 port 54322 ssh2\nApr 15 11:23:55 server sshd[12347]: Failed password for root from 203.0.113.10 port 54323 ssh2\n... [100 more similar entries] ...\n"}]}],"\n",["$","p","p-12",{"children":[["$","strong","strong-0",{"children":"Log 3"}],":"]}],"\n",["$","pre","pre-2",{"children":["$","code","code-0",{"children":"[15/Apr/2023:14:32:11 -0500] \"GET /index.html HTTP/1.1\" 200 4523\n[15/Apr/2023:14:32:12 -0500] \"GET /script.js HTTP/1.1\" 200 2145\n[15/Apr/2023:14:32:13 -0500] \"GET /style.css HTTP/1.1\" 200 1678\n[15/Apr/2023:14:32:14 -0500] \"GET /admin HTTP/1.1\" 403 213\n[15/Apr/2023:14:32:15 -0500] \"GET /admin/config HTTP/1.1\" 403 213\n[15/Apr/2023:14:32:16 -0500] \"GET /admin/users HTTP/1.1\" 403 213\n... [50 more similar entries with different paths] ...\n"}]}],"\n",["$","p","p-13",{"children":[["$","strong","strong-0",{"children":"Log 4"}],":"]}],"\n",["$","pre","pre-3",{"children":["$","code","code-0",{"children":"Apr 15 15:45:12 server kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:11:22:33:44:55:66:77:88:99:aa:bb:cc:dd SRC=198.51.100.75 DST=192.168.1.10 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=12345 PROTO=TCP SPT=31337 DPT=80 WINDOW=65535 RES=0x00 SYN URGP=0\nApr 15 15:45:13 server kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:11:22:33:44:55:66:77:88:99:aa:bb:cc:dd SRC=198.51.100.75 DST=192.168.1.10 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=12346 PROTO=TCP SPT=31337 DPT=443 WINDOW=65535 RES=0x00 SYN URGP=0\nApr 15 15:45:14 server kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:11:22:33:44:55:66:77:88:99:aa:bb:cc:dd SRC=198.51.100.75 DST=192.168.1.10 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=12347 PROTO=TCP SPT=31337 DPT=22 WINDOW=65535 RES=0x00 SYN URGP=0\n... [1000 more similar entries with different ports] ...\n"}]}],"\n",["$","p","p-14",{"children":[["$","strong","strong-0",{"children":"Tarefa"}],": Para cada conjunto de logs, identifique o tipo de ataque ou atividade suspeita."]}],"\n",["$","p","p-15",{"children":[["$","strong","strong-0",{"children":"Opções"}],":"]}],"\n",["$","ul","ul-3",{"children":["\n",["$","li","li-0",{"children":"Injeção SQL"}],"\n",["$","li","li-1",{"children":"Força bruta"}],"\n",["$","li","li-2",{"children":"Varredura de diretório"}],"\n",["$","li","li-3",{"children":"Varredura de porta"}],"\n",["$","li","li-4",{"children":"Cross-Site Scripting (XSS)"}],"\n",["$","li","li-5",{"children":"Negação de Serviço (DoS)"}],"\n",["$","li","li-6",{"children":"Man-in-the-Middle"}],"\n",["$","li","li-7",{"children":"Phishing"}],"\n",["$","li","li-8",{"children":"Malware"}],"\n",["$","li","li-9",{"children":"Atividade normal"}],"\n"]}],"\n",["$","p","p-16",{"children":[["$","strong","strong-0",{"children":"Solução"}],":"]}],"\n",["$","ul","ul-4",{"children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Log 1"}],": Injeção SQL"]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Log 2"}],": Força bruta"]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":"Log 3"}],": Varredura de diretório"]}],"\n",["$","li","li-3",{"children":[["$","strong","strong-0",{"children":"Log 4"}],": Varredura de porta"]}],"\n"]}],"\n",["$","h3","h3-13",{"id":"pbq-4-implementação-de-controles-de-segurança","children":"PBQ 4: Implementação de Controles de Segurança"}],"\n",["$","p","p-17",{"children":[["$","strong","strong-0",{"children":"Cenário"}],": Você é o consultor de segurança para uma pequena empresa que recentemente sofreu um incidente de segurança. A empresa tem recursos limitados e precisa implementar controles de segurança eficazes com um orçamento restrito. A empresa tem os seguintes ativos:"]}],"\n",["$","ul","ul-5",{"children":["\n",["$","li","li-0",{"children":"1 servidor web que hospeda o site da empresa"}],"\n",["$","li","li-1",{"children":"1 servidor de arquivos para armazenamento de documentos internos"}],"\n",["$","li","li-2",{"children":"10 estações de trabalho para funcionários"}],"\n",["$","li","li-3",{"children":"5 laptops para funcionários que trabalham remotamente"}],"\n",["$","li","li-4",{"children":"1 roteador/firewall para conectividade com a internet"}],"\n"]}],"\n",["$","p","p-18",{"children":[["$","strong","strong-0",{"children":"Tarefa"}],": Para cada ativo, selecione os dois controles de segurança mais importantes a serem implementados, considerando eficácia, custo e facilidade de implementação."]}],"\n",["$","p","p-19",{"children":[["$","strong","strong-0",{"children":"Opções de Controle"}],":"]}],"\n",["$","ol","ol-13",{"children":["\n",["$","li","li-0",{"children":"Firewall de aplicação web (WAF)"}],"\n",["$","li","li-1",{"children":"Sistema de detecção/prevenção de intrusão (IDS/IPS)"}],"\n",["$","li","li-2",{"children":"Autenticação multifator (MFA)"}],"\n",["$","li","li-3",{"children":"Criptografia de disco completo"}],"\n",["$","li","li-4",{"children":"Software antivírus/antimalware"}],"\n",["$","li","li-5",{"children":"Backup regular"}],"\n",["$","li","li-6",{"children":"Segmentação de rede"}],"\n",["$","li","li-7",{"children":"Gerenciamento de patches"}],"\n",["$","li","li-8",{"children":"Controle de acesso baseado em função (RBAC)"}],"\n",["$","li","li-9",{"children":"Monitoramento de logs"}],"\n",["$","li","li-10",{"children":"Firewall de host"}],"\n",["$","li","li-11",{"children":"VPN para acesso remoto"}],"\n"]}],"\n",["$","p","p-20",{"children":[["$","strong","strong-0",{"children":"Solução"}],":"]}],"\n",["$","ul","ul-6",{"children":["\n",["$","li","li-0",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"Servidor Web"}],":"]}],"\n",["$","ol","ol-0",{"children":["\n",["$","li","li-0",{"children":"Firewall de aplicação web (WAF)"}],"\n",["$","li","li-1",{"children":"Gerenciamento de patches"}],"\n"]}],"\n"]}],"\n",["$","li","li-1",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"Servidor de Arquivos"}],":"]}],"\n",["$","ol","ol-0",{"children":["\n",["$","li","li-0",{"children":"Backup regular"}],"\n",["$","li","li-1",{"children":"Controle de acesso baseado em função (RBAC)"}],"\n"]}],"\n"]}],"\n",["$","li","li-2",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"Estações de Trabalho"}],":"]}],"\n",["$","ol","ol-0",{"children":["\n",["$","li","li-0",{"children":"Software antivírus/antimalware"}],"\n",["$","li","li-1",{"children":"Gerenciamento de patches"}],"\n"]}],"\n"]}],"\n",["$","li","li-3",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"Laptops"}],":"]}],"\n",["$","ol","ol-0",{"children":["\n",["$","li","li-0",{"children":"Criptografia de disco completo"}],"\n",["$","li","li-1",{"children":"VPN para acesso remoto"}],"\n"]}],"\n"]}],"\n",["$","li","li-4",{"children":["\n",["$","p","p-0",{"children":[["$","strong","strong-0",{"children":"Roteador/Firewall"}],":"]}],"\n",["$","ol","ol-0",{"children":["\n",["$","li","li-0",{"children":"Segmentação de rede"}],"\n",["$","li","li-1",{"children":"Monitoramento de logs"}],"\n"]}],"\n"]}],"\n"]}],"\n",["$","p","p-21",{"children":"Estas questões práticas adicionais ajudarão a reforçar seu conhecimento e preparação para o exame CompTIA Security+ SY0-701. Pratique-as regularmente e revise as explicações para entender completamente os conceitos testados."}]]}]}]]}]}],null,["$","$L7",null,{"children":"$L8"}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","LcmsAB3xb3a7n208azvgY",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
+c:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"CompTIA Security+ SY0-701 - Material de Estudo"}],["$","meta","2",{"name":"description","content":"Material de estudo completo para a certificação CompTIA Security+ SY0-701"}],["$","link","3",{"rel":"icon","href":"/Material_Security_Plus/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+8:null
